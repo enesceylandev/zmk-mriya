@@ -26,16 +26,6 @@
     combos {
         compatible = "zmk,combos";
 
-        ju-enter {
-            bindings = <&kp ENTER>;
-            key-positions = <7 19>;
-        };
-
-        fr-enter {
-            bindings = <&kp ENTER>;
-            key-positions = <16 4>;
-        };
-
         key-option {
             bindings = <&kp RIGHT_ALT>;
             key-positions = <36 41>;
@@ -48,8 +38,13 @@
         };
 
         adjust-layer {
-            bindings = <&mo 0>;
+            bindings = <&mo 3>;
             key-positions = <37 40>;
+        };
+
+        screenshot {
+            bindings = <&kp PRINTSCREEN>;
+            key-positions = <16 19>;
         };
     };
 };
@@ -89,8 +84,8 @@
         lower {
             bindings = <
 &kp TILDE  &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE  &kp GRAVE  &kp CARET   &kp AMPERSAND                  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-&kp TAB    &kp EXCL           &kp AT_SIGN       &kp HASH   &kp DOLLAR  &kp PERCENT                    &kp LESS_THAN         &kp GREATER_THAN       &kp SLASH       &kp BACKSLASH    &kp PLUS          &kp MINUS
-&trans     &trans             &trans            &trans     &trans      &trans                         &kp COLON             &kp SEMICOLON          &trans          &trans           &kp ASTERISK      &kp EQUAL
+&kp TAB    &kp EXCL           &kp AT_SIGN       &kp HASH   &kp DOLLAR  &trans                         &kp LESS_THAN         &kp GREATER_THAN       &kp SLASH       &kp BACKSLASH    &kp PLUS          &kp MINUS
+&trans     &trans             &trans            &trans     &trans      &trans                         &kp COLON             &kp SEMICOLON          &trans          &kp PERCENT      &kp ASTERISK      &kp EQUAL
                                                            &trans      &trans         &trans  &trans  &trans                &trans
             >;
 
