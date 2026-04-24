@@ -28,7 +28,7 @@
 
         pipe {
             bindings = <&kp PIPE>;
-            key-positions = <8 9>;
+            key-positions = <6 7>;
             layers = <2>;
         };
 
@@ -115,10 +115,10 @@
 
         lower {
             bindings = <
-&kp TILDE       &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE  &kp GRAVE     &kp CARET       &kp AMPERSAND                  &kp LESS_THAN         &kp GREATER_THAN       &kp SLASH       &kp BACKSLASH    &trans            &trans
-&kp TAB         &kp EXCL           &kp AT_SIGN       &kp HASH      &kp DOLLAR      &kp PERCENT                    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-&kp LEFT_SHIFT  &trans             &trans            &kp ASTERISK  &mt PLUS MINUS  &kp EQUAL                      &kp COLON             &kp SEMICOLON          &trans          &trans           &trans            &trans
-                                                                   &trans          &trans         &trans  &trans  &trans                &trans
+&kp TILDE       &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE  &kp GRAVE     &kp CARET       &kp AMPERSAND                  &kp SLASH      &kp BACKSLASH     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans  &trans
+&kp TAB         &kp EXCL           &kp AT_SIGN       &kp HASH      &kp DOLLAR      &kp PERCENT                    &kp LESS_THAN  &kp GREATER_THAN  &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans  &trans
+&kp LEFT_SHIFT  &trans             &trans            &kp ASTERISK  &mt PLUS MINUS  &kp EQUAL                      &kp COLON      &kp SEMICOLON     &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans  &trans
+                                                                   &trans          &trans         &trans  &trans  &trans         &trans
             >;
 
             label = "Lower";
