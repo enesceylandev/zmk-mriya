@@ -115,8 +115,8 @@
 
         lower {
             bindings = <
-&kp TILDE       &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE  &kp GRAVE     &kp CARET       &kp AMPERSAND                  &kp SLASH      &kp BACKSLASH     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans  &trans
-&kp TAB         &kp EXCL           &kp AT_SIGN       &kp HASH      &kp DOLLAR      &kp PERCENT                    &kp LESS_THAN  &kp GREATER_THAN  &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans  &trans
+&kp TILDE       &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE  &kp GRAVE     &kp CARET       &kp AMPERSAND                  &kp SLASH      &kp BACKSLASH     &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans  &trans
+&kp TAB         &kp EXCL           &kp AT_SIGN       &kp HASH      &kp DOLLAR      &kp PERCENT                    &kp LESS_THAN  &kp GREATER_THAN  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans  &trans
 &kp LEFT_SHIFT  &trans             &trans            &kp ASTERISK  &mt PLUS MINUS  &kp EQUAL                      &kp COLON      &kp SEMICOLON     &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans  &trans
                                                                    &trans          &trans         &trans  &trans  &trans         &trans
             >;
