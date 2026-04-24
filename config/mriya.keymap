@@ -28,7 +28,7 @@
 
         pipe {
             bindings = <&kp PIPE>;
-            key-positions = <6 7>;
+            key-positions = <8 9>;
             layers = <2>;
         };
 
